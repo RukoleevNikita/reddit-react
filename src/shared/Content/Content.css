@@ -1,0 +1,11 @@
+.Content {
+    overflow: hidden;
+}
+  
+@media all and (min-width: 1024px) {
+    .Content {
+        background-color: var(--white);
+        border-radius: 7px 7px 0 0;
+        overflow: visible;
+    }
+}
